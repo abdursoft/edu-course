@@ -1,0 +1,22 @@
+.login-register-btn {
+    text-align: center;
+    border-radius: 20px;
+    min-height: 55px;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    color: #ffffff;
+    cursor: pointer;
+    margin-top: 0.75rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.25rem;
+    background-color: #06b6d4;/
+  }
+
+  .login-register-btn:hover {
+    background-color: #f87171;
+  }
