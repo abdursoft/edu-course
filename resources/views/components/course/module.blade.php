@@ -8,7 +8,7 @@
                 @foreach($module->contents as $key=>$content)
                     <div class="px-3 w-full">
                         <div class="bg-white">
-                            <p class="text-sm line-clamp-1 my-1 rounded-md cursor-pointer p-1">{{ucfirst($content->content_type) ." ". ($key + 1)}}  </p>
+                            <p class="text-sm line-clamp-1 my-1 rounded-md cursor-pointer p-1">{{ucfirst($content->content_type) ." Content ". ($key + 1)}}  </p>
                         </div>
                     </div>
                 @endforeach

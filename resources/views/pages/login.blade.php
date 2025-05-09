@@ -16,7 +16,7 @@
                         <div class="p-1 w-full"><label class="my-2">Password</label><input type="password"
                                 class="p-inputtext p-component w-full rounded-[12px] p-3 border border-black-500" name="password" placeholder="Password" ></div>
                         <button
-                            class="btn btn-block text-center rounded-[20px] min-h-[55px] px-10 text-white mt-3 py-2 w-full flex items-center justify-center gap-5 bg-cyan-600 hover:bg-red-400 duration-[500ms]"
+                            class="btn btn-block text-center rounded-[20px] min-h-[55px] px-10 text-white mt-3 py-2 w-full flex items-center justify-center gap-5 bg-cyan-600 hover:bg-red-400 duration-[500ms] cursor-pointer"
                             type="submit">Signin</button>
                         <p class="mt-[20px] text-center text-md">Don't have an account? <a href="{{route('page.register')}}"
                                 class="font-fold text-cyan-800">Sign Up</a></p>
